@@ -1,5 +1,5 @@
 ﻿#parameters part✅
-param([string]$source="C:\Users\jceyl\Bureau\Downloads\source", $destination="C:\Users\jceyl\Bureau\Downloads\destination")
+param([string]$source="", $destination="")
 
 #function part✅
 function Check-Folder([string]$directory, [switch]$create)
